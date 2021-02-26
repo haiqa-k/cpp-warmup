@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 {
    Circle c1; 
    Circle c2(10); 
-   Circle c3 = c2 + 0; //Note: Simply equating c3 to c2 not working unless something added
+   Circle c3 = c2 + 0; //Note: Simply equating c3 to c2 is not working unless something is added
    Circle c4 = c2 + c2;
 
    std::cout << "--------- Starting Values ----------\n";
