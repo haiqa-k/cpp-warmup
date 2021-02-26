@@ -15,15 +15,15 @@ int main(int argc, char** argv)
    for (int i = 1; i <= N; i++) {
     if (i % (X*Y) == 0)
     {   
-        cout << "fizzbuzz\n";
+        cout << "FizzBuzz\n";
     }
     else if (i % X == 0)
    {
-        cout << "fizz\n";
+        cout << "Fizz\n";
    }
    else if (i % Y == 0)
    {
-        cout << "buzz\n";
+        cout << "Buzz\n";
    }
     else
     {
